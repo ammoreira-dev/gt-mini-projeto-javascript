@@ -1,4 +1,4 @@
-```
+
 # 📝 Lista de Tarefas (Task List) - Node.js &amp; JSON Server
 
 Aplicação web interativa para gerenciamento de tarefas desenvolvida durante o curso de JavaScript. O projeto demonstra a integração entre manipulação do DOM, estruturas de repetição, estruturas condicionais e consumo de uma API REST simulada usando **Node.js** e **JSON Server**.
