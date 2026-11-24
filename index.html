@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProjeto JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <input type="text" id="busca" onkeyup="pesquisarTarefas()" placeholder="Pesquisar por Título">
+    </header>
+    <main>
+        <section id="tarefas">
+            <h2>TAREFAS <button type="button" onclick="abrirModal()">Nova tarefa</button></h2>
+            <h6>Nenhuma Tarefa Encontrada</h6>
+            <ul id="lista"></ul>
+        </section>
+        <section id="overlay" onclick="fecharModal()"></section>
+        <div id="criarTarefa" class="modal">
+            <form onsubmit="novaTarefa()">
+                <h3>Criar Tarefa <i class="bx bx-x" onclick="fecharModal()"></i></h3>
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" required>
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" required></textarea>
+                <button type="submit">Criar</button>
+            </form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

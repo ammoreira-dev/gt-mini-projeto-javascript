@@ -1,0 +1,30 @@
+{
+  "tarefas": [
+    {
+      "titulo": "Tarefa 1",
+      "descricao": "sdgvzcvxcv",
+      "id": "2"
+    },
+    {
+      "titulo": "tarefa 3 ",
+      "descricao": "aosdfoasdhfoasd",
+      "id": "5"
+    },
+    {
+      "titulo": "comprar caderno",
+      "descricao": "comprar caderno",
+      "id": "1"
+    },
+    {
+      "titulo": "comprar bola",
+      "descricao": "pesquisar valores",
+      "id": "10"
+    },
+    {
+      "titulo": "comprar pão",
+      "descricao": "passar na padaria",
+      "id": "hyfOnZEtYI0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

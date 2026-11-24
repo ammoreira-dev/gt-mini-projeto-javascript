@@ -1,0 +1,96 @@
+# Dependências e Builds Comuns
+node_modules/
+vendor/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.tsbuildinfo #TypeScript
+out/
+target/
+coverage/
+.next/
+.nuxt/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Banco de Dados (SQLite e Prisma)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+dev.db
+dev.db-journal
+
+# Dados locais de Containers (Docker)
+pgdata/
+mysql-data/
+mongodb-data/
+redis-data/
+dump.rdb
+
+# Diretórios Docker
+.docker/
+docker-data/
+volumes/
+
+# Chaves de API e Variáveis de Ambiente
+.env
+.env.*
+#.env.local
+#.env.development.local
+#.env.test.local
+#.env.production.local
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+secrets.*
+
+# Arquivos de sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs de Erros e Sistema
+npm-debug.log*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Configurações Locais de Editores (Opcional)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Configuração Biome
+biome.json
+
+# Teste de Rotas
+*.http
+
+video/
